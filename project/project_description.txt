@@ -1,25 +1,4 @@
-# Socket-based-drone-control-system
-
-Group assignment done in collaboration with Lorenzo Benedetti, Matteo Carlone, Fabio Conti, Claudio Del Gaizo, Marco Macchia, Andrea Manera, Francesco Pagano, Samuele Pedrazzi, Luca Predieri, Ettore Sani.
-
-## How to run
-
-Compiles all scripts
-```bash
-cd ./project/
-./install.sh <pathname> #pathname is the folder that will contain the executables
-
-```
-
-The <pathname> directory will contain the src folder, the help.sh and run.sh bash scripts and a README.txt
-All executables will be in their own respective directories in the src folder.
-In <pathname> folder, run:
-```bash
-./run.sh
-
-```
-
-## Description
+### PROJECT DESCRIPTION ###
 
 This project is the result of our first real cooperative assignment. It is a concurrent program composed by 5 processes, 4 drones and 1 master,
 communicating through sockets.
